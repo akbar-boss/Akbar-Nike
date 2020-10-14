@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration-color: #818181;
+}
+
+.header {
+  background: url(../img/header_bg_image.png) no-repeat center / cover;
+  height: 660px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1050px;
+  justify-content: center;
+}
+
+.nav,
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content li {
+  padding: 20px 28px 20px 28px;
+
+}
+
+.content a {
+  color: #4d4d4d;
+
+}
+
+.content :hover {
+  background: #515151;
+  color: #f7f7f7;
+  /* width: 150px;
+  height: 60px; */
+}
+
+.nav p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #cb0a15;
+  margin: 20px 200px 0 0;
+}
+
+.div h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #cb0a15;
+  text-align: center;
+  margin-top: 256px;
+}
+
+.div p {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.text {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
+
+.div__right {
+  width: 550px;
+  margin: 96px 26px 63px 408px;
+}
+
+.div__right h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 61px;
+  margin-bottom: 37px;
+}
+
+.div__right span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.div__right p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #919191;
+}
+
+.link {
+  padding-top: 5px;
+  padding-left: 35px;
+}
+
+.div1 {
+
+  height: 157px;
+}
+
+.div1 {
+  display: flex;
+  margin-top: 96px;
+}
+
+.left h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.left p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #919191;
+
+}
+
+.div2 {
+  display: flex;
+  margin-bottom: 27px;
+}
+
+.content__end {}
+
+.content__end h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content__end span {
+  color: #cb0a15;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content__end a {
+
+  color: #818181;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content__end a:hover {
+  color: #cb0a15;
+}
+.footer__end {
+margin-bottom: 45px;
+  justify-content: space-between;
+  
+}
